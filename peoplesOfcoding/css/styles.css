@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	font-family: Jua;
+}
+
+@font-face {
+    src: url("../fonts/BMJUA otf.otf");
+    font-family: "jua";
+}
+
+body {
+	background-color: #F0E8D9;
+
+}
+
+.all{
+	width: 300px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+
+}
+
+	
+
+h1{
+	font-size:64px;
+	margin-top: 75px;
+	margin-bottom: 0px;
+	color: #58595B;
+}
+h2{
+	font-size: 32px;
+	margin-top: 30px;
+	margin-bottom: 75px;
+	color: #58595B;
+}
+
+.foodimage {
+	display: block;
+    width: 300px; 
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.menuexplain{
+	border-radius: 0px 0px 10px 10px;
+	background-color: white;
+	padding-top: 20px;
+	font-size: 18px
+	color: #58595B;
+	padding: 20px;
+}
+
+.foodprice{
+	padding: 0px;
+	font-size: 16px;
+    color: #58595B;
+	margin-bottom: 16px;
+	margin-top: 20px;
+}
+
+
+
+.foodname{
+	font-size: 32px;
+	color: #58595B;
+	margin: 0px;
+
+}
+
+
+.buynow a {
+	font-size: 16px;
+	color: #0000EE;
+	text-decoration: none;
+
+}
