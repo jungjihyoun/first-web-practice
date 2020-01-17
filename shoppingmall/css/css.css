@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+ ul {margin: 0; padding: 0;}
+
+li {
+    list-style: none;
+}
+
+
+.navbar {
+    padding: 0 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+    margin-left: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #545454;
+}
+/* 위에까지 nav */
+
+#header {
+    font-size: 24px;
+    color: #545454;
+    text-align: center;
+    margin: 60px 0;
+}
+
+/* 상품 정렬 */
+
+.items {
+    width: 765px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    margin-bottom: 80px;
+}
+
+.clearfix {
+    clear: left;
+}
+
+.product_frame {
+    width: 225px;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* 밑에서부터 소셜미디어 아이콘*/
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#social_media {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}

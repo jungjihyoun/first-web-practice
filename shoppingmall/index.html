@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SimpleShop</title>
+    <meta charset="utf-8" />
+    <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+nav {
+  height: 60px;
+  line-height: 60px;
+}
+#logo {
+  margin-left: 30px;
+  vertical-align: middle;
+}
+nav ul {
+  float: right;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 30px;
+}
+nav li {
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+nav li a {
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+        color: #545454;
+}
+/* hero header */   
+/* products */
+main h1 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+        color: #545454;
+}
+main .buy-list{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+}
+main .buy-list a {
+        text-decoration: none;
+        color: #545454;
+}
+main .buy-item {
+        float: left;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+main .buy-item img {
+        width: 225px;
+        height: 225px;
+}
+main .buy-item p {
+        font-size: 16px;
+}
+main .brand-name {
+        margin-top: 20px;
+        margin-bottom: 4px;
+}
+main .brand-price {
+        margin: 0;
+}
+#clearfix { clear: left; }    
+/* footer */
+footer {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        text-align: center;
+}
+footer img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <img id="logo" src="images/logo.png" height="20px">
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav> 
+
+    <main>
+      <img src="images/hero_header.jpg" width="100%">
+      <h1>Our New Products</h1>
+
+      <div class="buy-list">
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/sunglasses.jpg">
+            <p class="brand-name">Sunglasses</p>
+            <p class="brand-price">49,000</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/tassel_loafer.jpg" alt="">
+            <p class="brand-name">Tassel Loafer</p>
+            <p class="brand-price">89,000</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/beige_bag.jpg" alt="">
+            <p class="brand-name">Beige Bag</p>
+            <p class="brand-price">69,000</p>
+          </div>
+        </a> 
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/sneakers.jpg" alt="">
+            <p class="brand-name">Sneakers</p>
+            <p class="brand-price">79,000</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/slippers.jpg" alt="">
+            <p class="brand-name">Slippers</p>
+            <p class="brand-price">29,000</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/wrist_watch.jpg" alt="">
+            <p class="brand-name">Wrist Watch</p>
+            <p class="brand-price">99,000</p>
+          </div>
+        </a> 
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/fedora_hat.jpg" alt="">
+            <p class="brand-name">Fedora Hat</p>
+            <p class="brand-price">39,000</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/classic_loafer.jpg" alt="">
+            <p class="brand-name">Classic Loader</p>
+            <p class="brand-price">99,000</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="buy-item">
+            <img src="images/pink_bag.jpg" alt="">
+            <p class="brand-name">Pink Bag</p>
+            <p class="brand-price">79,000</p>
+        </div>
+        </a>
+      </div> 
+      
+      <div id="clearfix"></div>
+    </main>
+
+    <footer>
+      <a href="#"><img src="images/facebook.png" height="20px"></a>
+      <a href="#"><img src="images/instagram.png" height="20px"></a>
+      <a href="#"><img src="images/twitter.png" height="20px"></a>
+    </footer>
+  </body>
+</html>
