@@ -1,6 +1,51 @@
 html{
     font-family: serif, Gaegu;
 }
+nav {
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 100px;
+}
+.logo{
+    border: 5px dashed saddlebrown;
+    border-radius: 70%;
+    margin-left: 10px;
+    vertical-align: middle;
+    /*display: inline-block;*/
+    /*margin-left: 17%;*/
+    /*margin-right: auto;*/
+    height: 50px;
+    width: 50px;
+}
+
+nav h1{
+    display: inline;
+    top: 18px;
+    margin-left: 0;
+    font-size: 30px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+nav li {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #545454;
+}
+
+
 
 body{
     background-color: burlywood;
@@ -12,63 +57,112 @@ body{
 }
 
 a{
-    text-decoration: deeppink;
+    text-decoration: None;
+    color:yellow;
+    font-size: 20px;
+    word-spacing: 20px;
+    text-transform: uppercase;
 }
 
-.borderImg{
-    border: 5px dashed saddlebrown;
-    border-radius: 70%;
 
-    display: inline-block;
-    margin-left: 17%;
-    margin-right: auto;
-    height: 80px;
-    width: 80px;
-}
+/*nav {*/
+/*    height: 60px;*/
+/*    line-height: 60px;*/
+/*}*/
+/*.container h1{*/
+/*    text-align: center;*/
+/*    font-family: Gaegu;*/
+/*    font-size: 50px;*/
+/*    font-weight: bold;*/
+/*    color: black;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*    display: inline-block;*/
+/*    !*line-height: Irem;*!*/
+/*}*/
 
-.container h1{
-    text-align: center;
-    font-family: Gaegu;
-    font-size: 50px;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 0;
-    margin-top: 0;
-    display: inline-block;
-    /*line-height: Irem;*/
-}
+/*.container h2{*/
+/*    text-align: center;*/
+/*    color: #414141;*/
+/*    font-size: 30px;*/
+/*    !*display: inline;*!*/
+/*    margin-left: 50%;*/
+/*    margin-top: 0;*/
+/*}*/
 
-.container h2{
-    text-align: center;
-    color: #414141;
-    font-size: 30px;
-    /*display: inline;*/
-    margin-left: 50%;
-    margin-top: 0;
-}
+/*.container{*/
+/*    margin-right: 50px;*/
+/*    display: inline-block;*/
+/*}*/
 
-.container{
-    margin-right: 50px;
-    display: inline-block;
+
+
+
+
+/*ul{*/
+/*    display: inline-block;*/
+/*}*/
+/*ul li{*/
+/*    color: white;*/
+/*    font-size: 27px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*ul > li{*/
+/*    color: hotpink;*/
+/*}*/
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding : 5px;
+    margin: auto;
+    /*display: block; 이거하면 왜 고양이가 가운데로 정렬?*/
+    /*opacity: inherit;  불투명도 0(안보임)*/
+    /*display: block;*/
+    margin-bottom: 30px;
 }
 
 .profileImg{
-    height: 100px;
-    width: 100px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
 }
 
-
-
-ul{
-    display: inline-block;
-}
-ul li{
-    color: white;
-    font-size: 27px;
-    font-weight: bold;
-}
-
-ul > li{
-    color: hotpink;
+button{
+    color: coral;
+    background-color: cornsilk;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+/*    clock right*/
+/*    button의 padding은 버튼에 스페이스 부여*/
 }
 
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+
+}
+
+.col-1{width:15%;}
+.col-2{width:16.66%;}
+.col-3{width:70%;}
+
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    border: 2px solid hotpink;
+    padding: 15px;
+
+}
