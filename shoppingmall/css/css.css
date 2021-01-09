@@ -8,12 +8,11 @@ body {
   font-family: "Helvetica";
 }
 
- ul {margin: 0; padding: 0;}
+ul {margin: 0; padding: 0;}
 
 li {
     list-style: none;
 }
-
 
 .navbar {
     padding: 0 30px;
@@ -61,6 +60,8 @@ li {
 .clearfix {
     clear: left;
 }
+
+
 
 .product_frame {
     width: 225px;
