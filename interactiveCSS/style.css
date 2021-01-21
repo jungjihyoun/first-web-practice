@@ -34,7 +34,6 @@ body{
 /* 공통으로 */
 .item{
     /* float: left;  해당 아이템을 왼쪽에 두고 주위에 싸고 돈다.. 이 경우 자연스럽게 display-inline처럼보임 */
-
     /* a와 b를 나란히 하기 위해
     display: inline-block; */
     /* vertical-align: top; */

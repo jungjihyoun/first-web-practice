@@ -29,3 +29,96 @@ border-box :  (width  heigth padding  border)  / margin
 
 
 
+################# 1. flex _ container에 부여###################
+부모요소에서... 
+display: flex;
+flex-direction -> column / row  -> 배치 방향 설정
+                   + -reverse 등도 있음
+
+flex-wrap: nowrap(기본값) : 
+   => 컨테이너가 아이템보다 폭이 작아질 경우 어떻게?
+    wrap일 경우 밑으로 떨어짐! float의 경우에도 떨어진다
+    wrap-reverse 순서 반대로 떨어져
+
+justify-content : flex-start(기본값) /end / center...
+    => 왼쪽오른쪽방향으로 정렬. 축이 x라고 생각하자!!
+    => justify는 지금 현재 축 방향으로 정렬을 해준다.
+    => *space-between : 여백을 가진다.. 박스끼리
+    => space-around: 양끝에도 여백 가진다.
+
+align-items: stretch(기본값);
+    => y축으로 정렬한다고 생각하자
+    => flex-start : 위로 붙는다 / end / center...
+
+
+*** justify-content 와 align-items를 같이 center로 두면
+    아주 편하다
+
+
+align-content: flex-start;
+  => wrap속성과 함께일경우, 요소가 떨어지긴 하지만
+     기존처럼 스트레칭 되지 않고 떨어진다.
+
+
+
+
+################# 2. flex _ item에 부여###################
+flex-grow: num;
+  => 여백을 num비율만큼 나눠 가진다.
+  => flex-grow(늘어나기) 전에 있던 여백을 각각 나눠 가진다
+
+flex-basis: 0
+  => 기본값이 auto일 경우 
+  => 0 인경우 
+
+flex-shrink: num
+  => 줄어들 때
+
+flex:1 쓰면 flex-basis가 알아서 auto로 지정되니까
+flex를 쓰자..?
+
+
+flex에 넣는 숫자는 비율이다.
+ => 숫자를 넣으면 그 부분은 신축성 있게 늘어난다
+ => 특정 부분만 flex:num 등 숫자 지정하면 화면 크기에 따라 늘어나게 할 수도 있다
+
+
+align-self: flext-start / end / center...
+  => 각각 위치 조정 된다
+
+order: num;
+  => 순서!
+
+flex-direction: column 과 order을 사용하여 
+순서 쉽게 바꿀 순 있다. 
+
+
+################### grid ###################
+display : grid;
+grid-template-columns : 4fr 6fr;
+   fr을 사용하면 스크롤이 생기지 않는다. 
+grid-template-columns: repeat(3, 1fr);
+
+*grid-template-columns : 200px 1fr; 하게되면
+    200px은 고정되고 그 옆부분은 반응형!
+
+
+grid-gap: 1rem;
+
+
+
+
+*컨텐츠 높이는 다르지만 각 그리드 크기는 같게 하고싶다??!
+grid-auto-wors: minmax(200px,auto);
+   ->minmax쓰면 글자가 흘러넘치지는 않는다. 
+   ->최소한 200px씩은 확보!
+
+
+
+justify-items: start,center...
+  => 각 그리드를 정렬하는 방법
+
+  
+
+
+

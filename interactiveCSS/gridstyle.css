@@ -1,0 +1,33 @@
+div, p{
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5rem;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr;
+    align-items: start; */
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(10em,auto);
+    height: 100vh;
+    background: lightgray;
+    justify-items: center;
+}
+
+.col1 ,.col3, .col5{
+    background-color: pink;
+
+}
+ 
+
+
+.col2 ,.col4, .col6{
+    background-color: yellow;
+}
