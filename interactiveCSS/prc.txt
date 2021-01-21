@@ -1,0 +1,31 @@
+
+############### display 속성 ##############
+*block => 부모의 속성만큼 공간을 차지
+       => 박스형태 크기 조정 가능!!
+
+*inline => 글자만큼만 공간을 차지
+        => 박스가 아니라 크기 조정 불가!!
+
+
+* inline-block 은 inline과 block 크기 속성 함께 가지고 있다.
+                즉, 크기 조정 가능하고 나란히 배치 가능
+
+############## css box model #################
+content-box(기본값)  : (width heigth) / border / padding / margin
+
+border-box :  (width  heigth padding  border)  / margin
+ -> 비교적 다루기 쉬움. w,h만 신경쓰면 됨
+ -> 최신 브라우저만 지원
+
+ ################# float #################
+ float를 사용하여 정렬을 빠르게 해보자
++) float 속성을 제거하는 법 : clear: both 를 취해준다
+   -> 자식이 float 속성을 가지고 있으면 부모는  , 그 자식을 품지 않고
+   있는 것으로 인식되어 0 으로 나온다
++) after.. 가상 엘리먼트를 생성하여 float속성을 없애보기
+
+
+############ viewport 와 @media를 사용하여 앱 환경 최적화 하기######
+
+
+
