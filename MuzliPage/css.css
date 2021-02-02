@@ -1,0 +1,136 @@
+:root{
+/*    color*/
+    --white-color: #fff;
+    --black-color: black;
+    --pink-dark-color: #f50057;
+    --grey-dark-color: #909090;
+
+/*    size*/
+    --spacing-large: 30px;
+    --spacing-small: 6px;
+    --spacing-medium: 12px;
+    --avatar-size: 36px;
+
+    /* Font Size */
+    --font-large: 20px;
+    --font-regular: 16px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+button,
+button:focus {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: none;
+}
+
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 95.667px;
+    position: relative;
+    max-width: 1032px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin-top: 20px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .logo i{
+    font-size: 25px;
+    /*line-height: 25px;*/
+}
+
+header .signUp{
+    color: var(--grey-dark-color);
+}
+
+header .signUp button{
+    color: var(--grey-dark-color);
+    border: 1px solid var(--grey-dark-color);
+    border-radius: 4px;
+    padding: var(--spacing-small);
+    margin-left: 35px;
+}
+
+/*#################################*/
+
+.main .headerimg{
+    display: flex;
+    justify-content: center;
+    background: black;
+
+}
+
+.main .install{
+    height: 100px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+.main .install .select button{
+    color: white;
+    margin-top: 38px;
+    margin-right: 20px;
+    font-size: var(--font-medium);
+    letter-spacing: 1px;
+
+}
+
+.main .install .buttons{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 38px;
+    font-size: var(--font-large);
+    color: var(--white-color);
+}
+.main .install .buttons button{
+    color: white;
+    text-align: right;
+    margin-left: 13px;
+}
+
+.main .install .buttons button p{
+    border: 0.5px solid var(--white-color);
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
