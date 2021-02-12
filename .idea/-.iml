@@ -6,5 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="server_basic" />
     <orderEntry type="module" module-name="expressapp" />
+    <orderEntry type="module" module-name="JS" />
+    <orderEntry type="module" module-name="bootstrap-learn" />
   </component>
 </module>

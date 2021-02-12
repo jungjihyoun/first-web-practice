@@ -9,7 +9,6 @@ function randomString() {
     let selectStringArr = selectString.split("");
 
     return selectStringArr;
-
 }
 
 function resetTyping() {
