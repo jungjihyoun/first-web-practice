@@ -1,9 +1,11 @@
 body {
-  background-color: #E6F2FF; }
+  background-color: #E6F2FF;
+}
 
 h1 {
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 section {
   background: #CC66FF;
@@ -13,29 +15,26 @@ section {
   padding: 20px;
   border-radius: 7px;
   position: relative;
-  z-index: -2; }
+  z-index: -2;
+}
 
 .thumb1 {
   height: 120px;
   width: 120px;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  -ms-border-radius: 10%;
   border-radius: 10%;
   background-color: #333;
   color: #E6F2FF;
-  margin: 0 435px -90px; }
+  margin: 0 435px -90px;
+}
 
 .thumb2 {
   height: 100px;
   width: 100px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   background-color: #CC66FF;
   color: #CC66FF;
-  margin: -50px 1310px; }
+  margin: -50px 1310px;
+}
 
 .btn-1 {
   padding: 15px 20px;
@@ -46,9 +45,12 @@ section {
   border-style: none;
   cursor: pointer;
   display: block;
-  margin: auto; }
-  .btn-1:hover {
-    background-color: #9933ff; }
+  margin: auto;
+}
+
+.btn-1:hover {
+  background-color: #9933ff;
+}
 
 .btn-2 {
   padding: 30px;
@@ -60,10 +62,14 @@ section {
   cursor: pointer;
   display: block;
   margin: auto;
-  font-size: 2rem; }
-  .btn-2:hover {
-    background-color: #9933ff; }
-  .btn-2:hover {
-    background-color: #4d0099; }
+  font-size: 2rem;
+}
 
+.btn-2:hover {
+  background-color: #9933ff;
+}
+
+.btn-2:hover {
+  background-color: #4d0099;
+}
 /*# sourceMappingURL=main.css.map */
